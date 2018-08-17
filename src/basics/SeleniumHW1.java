@@ -14,7 +14,7 @@ public class SeleniumHW1 {
 		driver3.get("https://www.dontforget.co/forgot-password");
 		WebElement x=driver3.findElement(By.name("iremember"));
 		System.out.println(x.getAttribute("placeholder"));
-		x.sendKeys("nicksclicks.biz@gmail.com");
+		x.sendKeys("test@gmail.com");
 		System.out.println(x.getText());
 		WebElement p=driver3.findElement(By.xpath("/html/body/div/h2"));
 		System.out.println(p.getText());
